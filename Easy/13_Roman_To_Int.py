@@ -12,7 +12,3 @@ class Solution:
                 sol += hash[i]
             prev = i
         return sol
-
-Sol = Solution()
-st = input('Roman Numeral: ')
-print(Sol.romanToInt(st))
