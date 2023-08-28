@@ -11,6 +11,3 @@ def plusOne(digits):
         print(digits[d])
         digits[d] == 0
     return digits
-
-dig = [1,2,9]
-answer = plusOne(dig)

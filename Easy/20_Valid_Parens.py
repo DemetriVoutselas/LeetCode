@@ -11,9 +11,3 @@ class Solution:
                      return False
         if len(Stack) == 1: return True
         else: return False
-    
-sol = Solution()
-parens = input("Input parentheses sequence: ")
-print(sol.isValid(parens))
-
-[].insert()
