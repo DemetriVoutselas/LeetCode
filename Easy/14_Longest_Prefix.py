@@ -11,8 +11,3 @@ class Solution(object):
                     return base[0:i]
 
         return base
-
-    
-sol = Solution()
-inp = ["flower","floor","forest","find"]
-print(sol.longestCommonPrefix(inp))
