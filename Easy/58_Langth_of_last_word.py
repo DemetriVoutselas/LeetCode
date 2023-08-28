@@ -1,6 +1,3 @@
-t = "sfg   "
-
-
 def lengthOfLastWord(s):
     n = len(s)-1
     if n == 1:
@@ -12,7 +9,3 @@ def lengthOfLastWord(s):
             return (n-i)
         elif i ==0:
             return n+1
-
-
-answer = lengthOfLastWord(t)
-print(answer)
