@@ -1,3 +1,6 @@
+# Algorithm is done in O(n) time. Where n is length of the longer binary digit and m is length of the shorter binary
+# uses "two finger" trick
+
 def addBinary(a, b):
     a_n = len(a)
     a_tick = a_n - 1
@@ -63,9 +66,3 @@ def addBinary(a, b):
     if carry == 1:
         answer = '1' + answer
     return answer
-
-
-a = '1010'
-b = '1011'
-
-ab = addBinary(a, b)
